@@ -12,7 +12,7 @@ namespace Consolerpg
         {
             get
             {
-                string retorno = "Driver={MySQL ODBC 3.51 Driver};database=dbconsole;description=ConsoleRPG;option=0;pwd=1366;port=0;server=localhost;uid=root";
+                string retorno = "Driver={MySQL ODBC 3.51 Driver};database=dbconsole;description=ConsoleRPG;option=0;pwd=******;port=0;server=localhost;uid=root";
                 return retorno;
             }
         }
