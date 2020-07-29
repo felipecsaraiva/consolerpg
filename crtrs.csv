@@ -1,0 +1,35 @@
+id_criatura,tx_nome,nr_hp,nr_ataque,nr_defesa,nr_agilidade,nr_destreza,nr_inteligencia,nr_vitalidade,nr_composicao,nr_concentracao,nr_exp,nr_gold
+1,um Inseto,30,5,3,4,4,0,0,0,0,5,0
+2,um Inseto Venenoso,50,7,4,8,5,0,0,0,0,10,0
+3,um Rato,60,10,4,5,5,0,0,0,0,15,5
+4,uma Ratazana Medonha,70,12,10,7,7,0,0,0,0,20,10
+5,uma Aranha,70,10,8,10,8,0,0,0,0,30,30
+6,uma Aranha Venenosa,70,20,8,10,10,0,0,0,0,35,50
+7,um Lobo,80,16,12,10,10,0,0,0,0,50,0
+8,um Lobo Raivoso,80,20,10,16,10,0,0,0,0,60,0
+9,um Morcego,60,15,10,12,11,0,0,0,0,30,0
+10,Troll,100,28,22,18,20,0,0,0,0,75,50
+11,Campeão Troll,120,38,28,27,27,0,0,0,0,300,150
+12,Goblin,100,24,18,24,22,0,0,0,0,75,40
+13,Goblin de Atiradeira,120,34,22,28,20,0,0,0,0,90,60
+14,Tarantula,100,27,22,21,18,0,0,0,0,100,100
+15,Aranha Gigantesca,300,60,54,52,50,0,0,0,0,1000,1000
+16,Goblin Enfurecido,150,42,24,26,28,0,0,0,0,150,100
+17,Rei Goblin,200,52,40,30,38,0,0,0,0,350,100
+18,Guarda Goblin,140,48,32,30,30,0,0,0,0,200,100
+19,Goblin Shaman,150,46,18,32,24,0,0,0,0,150,100
+20,Rainha Aracnídea,400,80,68,62,62,0,0,0,0,3000,1000
+21,Minotauro,0,0,0,0,0,0,0,0,0,0,0
+22,Minotauro Arqueiro,0,0,0,0,0,0,0,0,0,0,0
+23,Minotauro Guardião,0,0,0,0,0,0,0,0,0,0,0
+24,Herói Minotauro,0,0,0,0,0,0,0,0,0,0,0
+25,Orc,0,0,0,0,0,0,0,0,0,0,0
+26,Orc Guerreiro,0,0,0,0,0,0,0,0,0,0,0
+27,Orc Feiticeiro,0,0,0,0,0,0,0,0,0,0,0
+28,Campeão Orc,0,0,0,0,0,0,0,0,0,0,0
+29,Anão,0,0,0,0,0,0,0,0,0,0,0
+30,Anão Minerador,0,0,0,0,0,0,0,0,0,0,0
+31,Guerreiro Anão,0,0,0,0,0,0,0,0,0,0,0
+32,Soldado Anão,0,0,0,0,0,0,0,0,0,0,0
+33,Milfgird,0,0,0,0,0,0,0,0,0,0,0
+34,Nilfgard,0,0,0,0,0,0,0,0,0,0,0

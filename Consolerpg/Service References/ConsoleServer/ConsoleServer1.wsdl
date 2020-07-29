@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost:27658/ConsoleServer.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://localhost:27658/ConsoleServer.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:27658/ConsoleServer.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsoleServer_LoginUser_InputMessage">
+    <wsdl:part name="parameters" element="LoginUser" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_LoginUser_OutputMessage">
+    <wsdl:part name="parameters" element="LoginUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_getUserData_InputMessage">
+    <wsdl:part name="parameters" element="getUserData" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_getUserData_OutputMessage">
+    <wsdl:part name="parameters" element="getUserDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_getAreaData_InputMessage">
+    <wsdl:part name="parameters" element="getAreaData" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_getAreaData_OutputMessage">
+    <wsdl:part name="parameters" element="getAreaDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_testar_InputMessage">
+    <wsdl:part name="parameters" element="testar" />
+  </wsdl:message>
+  <wsdl:message name="ConsoleServer_testar_OutputMessage">
+    <wsdl:part name="parameters" element="testarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ConsoleServer">
+    <wsdl:operation name="LoginUser">
+      <wsdl:input wsaw:Action="urn:ConsoleServer/LoginUser" message="ConsoleServer_LoginUser_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ConsoleServer/LoginUserResponse" message="ConsoleServer_LoginUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserData">
+      <wsdl:input wsaw:Action="urn:ConsoleServer/getUserData" message="ConsoleServer_getUserData_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ConsoleServer/getUserDataResponse" message="ConsoleServer_getUserData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAreaData">
+      <wsdl:input wsaw:Action="urn:ConsoleServer/getAreaData" message="ConsoleServer_getAreaData_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ConsoleServer/getAreaDataResponse" message="ConsoleServer_getAreaData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="testar">
+      <wsdl:input wsaw:Action="urn:ConsoleServer/testar" message="ConsoleServer_testar_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ConsoleServer/testarResponse" message="ConsoleServer_testar_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

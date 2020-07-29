@@ -1,0 +1,17 @@
+C:\Users\luis.saraiva\Documents\Trabalhos\Consolerpg\Consolerpg\bin\Debug\Consolerpg.exe
+C:\Users\luis.saraiva\Documents\Trabalhos\Consolerpg\Consolerpg\bin\Debug\Consolerpg.pdb
+C:\Users\luis.saraiva\Documents\Trabalhos\Consolerpg\Consolerpg\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\luis.saraiva\Documents\Trabalhos\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.exe
+C:\Users\luis.saraiva\Documents\Trabalhos\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.pdb
+C:\Desenvolvimento\Projetos\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.exe
+C:\Desenvolvimento\Projetos\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.pdb
+C:\Desenvolvimento\Projetos\Consolerpg\Consolerpg\bin\Debug\Consolerpg.exe
+C:\Desenvolvimento\Projetos\Consolerpg\Consolerpg\bin\Debug\Consolerpg.pdb
+C:\Desenvolvimento\Projetos\Consolerpg\Consolerpg\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\luis.saraiva\Documents\Trabalhos\Consolerpg\Consolerpg\bin\Debug\Consolerpg.exe.config
+C:\projects\Consolerpg\Consolerpg\bin\Debug\Consolerpg.exe.config
+C:\projects\Consolerpg\Consolerpg\bin\Debug\Consolerpg.exe
+C:\projects\Consolerpg\Consolerpg\bin\Debug\Consolerpg.pdb
+C:\projects\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.csprojAssemblyReference.cache
+C:\projects\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.exe
+C:\projects\Consolerpg\Consolerpg\obj\x86\Debug\Consolerpg.pdb
